@@ -9,4 +9,7 @@
 	url = https://github.com/Vinod2311/Rasp-pi-Sensor-Data-Collection-and-Cloud-Upload.git
 [submodule "front-end-web-app-sub-repo"]
 	path = front-end-web-app-sub-repo
-	url = https://github.com/Vinod2311/Pi-Plant-Monitoring.git
+	url = https://github.com/Vinod2311/Pi-plant-monitoring-web-app.git
+[submodule "pi-plant-data-collection"]
+	path = pi-plant-data-collection
+	url = https://github.com/Vinod2311/Rasp-pi-Sensor-Data-Collection-and-Cloud-Upload.git
