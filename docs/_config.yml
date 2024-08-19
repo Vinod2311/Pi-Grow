@@ -1,9 +1,6 @@
 # Site settings
 title: Pi Plant monitoring web app
-author:
-  name: Vinod Yadav
-  email: yadavv2311@gmail.com
 description: "This web app allows users to create their own custom plant monitoring webpage"
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: pages-themes/minimal@v0.2.0
