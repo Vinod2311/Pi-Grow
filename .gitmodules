@@ -1,0 +1,3 @@
+[submodule "front-end-web-app"]
+	path = front-end-web-app
+	url = https://github.com/Vinod2311/Pi-Plant-Monitoring.git
