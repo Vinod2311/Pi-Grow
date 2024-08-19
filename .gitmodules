@@ -1,3 +1,6 @@
 [submodule "front-end-web-app"]
 	path = front-end-web-app
 	url = https://github.com/Vinod2311/Pi-Plant-Monitoring.git
+[submodule "Pi-sensor-collection"]
+	path = Pi-sensor-collection
+	url = https://github.com/Vinod2311/Rasp-pi-Sensor-Data-Collection-and-Cloud-Upload.git
