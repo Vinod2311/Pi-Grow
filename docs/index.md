@@ -8,6 +8,8 @@ layout: default
 
 Pi Grow is a web app designed to help users create their custom plant monitoring system and a web page dashboard to view all the data, all with a few clicks.
 
+Website hosted at [Pi-grow](https://raspberry-pi-plant-monitoring.web.app/).
+
 ## How to use?
 
 Currently supports the following sensors: 

@@ -4,6 +4,8 @@
 
 Pi Grow is a web app designed to help users create their custom plant monitoring system and a web page dashboard to view all the data, all with a few clicks.
 
+Website hosted at [Pi-grow](https://raspberry-pi-plant-monitoring.web.app/).
+
 ## How to use?
 
 Currently supports the following sensors: 
@@ -55,7 +57,7 @@ Add different widgets to your dashboard. Resize, move and customise your page.
 #### BMP280 - Temp and Pressure
 
 Setup for using this sensor. You may need to solder the sensor onto a header.
-![temp sensor](docs/bmp280.jpg?raw=true "Title")
+![temp sensor](docs/bmp280.JPG?raw=true "Title")
 
 The following is a good guide. [Link to website](https://docs.sunfounder.com/projects/umsk/en/latest/05_raspberry_pi/pi_lesson20_bmp280.html)
 
