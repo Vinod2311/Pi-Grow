@@ -6,21 +6,43 @@ layout: default
 
 # What is Pi Grow?
 
-Pi Grow is a web app designed to help users create their custom plant monitoring system and a web page to view all the data, all with a few clicks.
+Pi Grow is a web app designed to help users create their custom plant monitoring system and a web page dashboard to view all the data, all with a few clicks.
 
 ## How to use?
 
-Detailed instructions on our [github](./) page.
+Currently supports the following sensors: BMP280 --Temperature and pressure, SEN0193--soil moisture, BH170--light intensity, Pi camera module v2
 
 
-1. Attach your sensors to the raspberry pi. A [guide](./) is available.
+1. Attach your sensors to the raspberry pi. See github repo for guide.
 
-2. Sign up at [Link to website](./). Choose your system settings( sensors used, measurement timing etc. ). A python file will be generated based on your preferences.
+2. Git clone rasp-pi-sensor-data.. repo onto you raspberry pi. I recommend creating and activating a virtual  environment at this stage before install dependencies for consistant results.
 
-3. Simply upload and run the main script on your pi and `viola!` your work is done.
+```js 
+git clone https://github.com/Vinod2311/Rasp-pi-Sensor-Data-Collection-and-Cloud-Upload.git
+```
 
-A database is automatically created for you to hold your data. You can see the data pouring in the dashboard view.
+3. Install python and node dependencies.
 
-Now you can customise your display. Place your charts at any portion of your dashboard view. You can also create charts to view trends in your data. Simply choose the sensor and the dates.
+```js 
+npm install
+pip3 install requirements.txt
+```
+
+4. Sign up at [Link to website](./). Choose your system settings( sensors used, measurement timing etc. ).
+
+5. Update the file user.json with your own details.
+
+6. Run sensor script
+
+```js 
+python3 main.py
+```
+If you plan to keep the script running even after you disconnect from your pi, I recommend using the `screen` package.
+
+## Using the web app
+
+A database is automatically created for you to hold your data. You can create a dashboard view on the dashboard page.
+
+Add different widgets to your dashboard. Resize, move and customise your page.
 
 
